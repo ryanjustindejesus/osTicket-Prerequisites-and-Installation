@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/aac2a0a3-bbae-4ee1-b484-b51eb971579e)<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket - Prerequisites and Installation</h1>
 
 - <b>This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket</b>
 
@@ -80,4 +80,88 @@
 - <b>Select v-ost>Sites>Default Web Site>osTicket</b>
 - <b>Under Manage Folder, click Browse*80(HTTP)</b>
 
+![image](https://github.com/user-attachments/assets/8be3c3dc-6333-463e-aaf0-b819f7756156)
+- <b>osTicket Installation</b>
+
+![image](https://github.com/user-attachments/assets/15562ce3-6970-4d78-9947-96f6c6e8a634)
+- <b>Go back to IIS and click PHP Manager</b>
+- <b>Under PHP Extension, click enable or disable an extension</b>
+
+![image](https://github.com/user-attachments/assets/e36e3006-6392-485c-9898-8698af52a11c)
+- <b>Right click and enable php_imap</b>
+
+![image](https://github.com/user-attachments/assets/74f2e888-15fd-4e8a-a7b1-aa90fd748f3d)
+- <b>Enable php_intl</b>
+
+![image](https://github.com/user-attachments/assets/4bb063fb-4fdb-4575-8adf-5d49bf0066ee)
+- <b>Enable php_opcache</b>
+- <b>Restart IIS</b>
+
+![image](https://github.com/user-attachments/assets/361908c1-cc6c-47d3-91fd-bd846d7bb41a)
+- <b>Navigate to osTicket and click include</b>
+
+![image](https://github.com/user-attachments/assets/f5510708-6304-4b19-abda-9b6a8827065d)
+- <b>Rename ost-sampleconfig.php to ost-config.php</b>
+
+![image](https://github.com/user-attachments/assets/c6b22e58-a97f-4587-b99a-8e1ea432c949)
+- <b>Right click ost-config.php and select properties</b>
+- <b>Select Security>Advanced</b>
+
+![image](https://github.com/user-attachments/assets/125183b6-f748-4a0a-aa01-d8c4194dcb0b)
+- <b>Select Disable inheritance and Remove all inherited permissions from this object</b>
+- <b>Click Add</b>
+
+![image](https://github.com/user-attachments/assets/2a9710cc-a166-414a-8fcf-7ff0887166ef)
+- <b>Select a principal and type Everyone</b>
+- <b>Click Ok</b>
+
+![image](https://github.com/user-attachments/assets/484ff7ea-f554-408c-ad9a-ba8be72e3dfc)
+- <b>Select Full Control</b>
+
+![image](https://github.com/user-attachments/assets/5fd66be4-0bb5-4be8-9224-19ff517ccf59)
+- <b>osTicket updated/b>
+- <b>Click continue</b>
+
+![image](https://github.com/user-attachments/assets/6ea83228-cced-457d-9a1e-e93eca6be705)
+- <b>Fill out the information and click Install Now</b>
+
+![image](https://github.com/user-attachments/assets/fed676a3-abf3-4bf1-a19a-9e5a2984857f)
+- <b>osTicket installed</b>
+
+![image](https://github.com/user-attachments/assets/25063c13-07ba-4992-932e-f97a02842aad)
+- <b>Go to the installation files and setup HeidiSQL</b>
+
+![image](https://github.com/user-attachments/assets/594796bc-f34c-459a-86a4-8941ab5daf57)
+- <b>HeidiSQL installation complete</b>
+
+![image](https://github.com/user-attachments/assets/44f29231-959b-49fd-94a9-1e62a80ae761)
+- <b>Click skip</b>
+
+![image](https://github.com/user-attachments/assets/63e090c3-eac9-4866-8488-784c68a5bf0c)
+- <b>Click New</b>
+- <b>User: root</b>
+- <b>Databases: osTicket</b>
+- <b>Click save and Open</b>
+
+![image](https://github.com/user-attachments/assets/b34c1653-a138-4da6-af59-376e36fe6357)
+- <b>HeidiSQL Database</b>
+
+![image](https://github.com/user-attachments/assets/b1cf340a-5c14-4694-b022-9cfcb18b6011)
+- <b>Open Edge browser and go to this link: http://locahost/osticket/scp/login.php</b>
+
+![image](https://github.com/user-attachments/assets/dcbbe744-057d-4e54-a2ce-7c3a1cc3e053)
+- <b>Navigate back to the include file path</b>
+- <b>Right click ost-config.php and select properties</b>
+- <b>Click advanced and select everyone</b>
+
+![image](https://github.com/user-attachments/assets/f6f0ba87-04f6-4227-a0d7-2ff35fd50c23)
+- <b>Select Read only permissions</b>
+- <b>Select Ok>Apply>Ok</b>
+
+![image](https://github.com/user-attachments/assets/920f83a0-03bb-4286-a699-6c40bd25167b)
+- <b>Dete the setup folder from the osTicket folder</b>
+
+![image](https://github.com/user-attachments/assets/380aa69a-730a-42fe-a361-f9651fa5cb49)
+![image](https://github.com/user-attachments/assets/f49cc9d9-35a0-4a72-80ae-8f0f0cc68a6f)
+- <b>Login to osTicket</b>
 
