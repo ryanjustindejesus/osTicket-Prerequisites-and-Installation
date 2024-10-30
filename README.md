@@ -18,7 +18,7 @@
 
 - <b>Enable Internet Information Services (IIS)</b>
 - <b>Install Web Platform Installer</b>
-- <b>Install MySQL and setup username and password/b>
+- <b>Install MySQL and setup username and password </b>
 - <b>Install Microsoft Visual C++ 2009 Redistributable Package </b>
 - <b>Configure permissions and install osTicket</b>
 
