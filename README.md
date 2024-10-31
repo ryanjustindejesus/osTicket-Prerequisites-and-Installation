@@ -30,7 +30,7 @@
 ![image](https://github.com/user-attachments/assets/28272fde-e942-4c91-be03-a315bb34a3f4)
 - <b>Open Remote Desktop Connection using your Windows virtual machine IP Address to connect</b>
 
-![image](https://github.com/user-attachments/assets/669462f8-ec85-437a-a878-bd32a14d4cb5)
+![image](https://github.com/user-attachments/assets/6796a496-b76d-41c4-9a61-e7c5d0c24da5)
 - <b>Open the control panel and go to programs>Turn Windows features on or off</b>
 - <b>Select Internet Information Services>World Web Services>Application Development Features>CGI</b>
 
